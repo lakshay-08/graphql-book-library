@@ -1,0 +1,36 @@
+{
+  "name": "graphql-book-library",
+  "version": "1.0.0",
+  "description": "This is a POC to understand the working and basics of graphql.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshay-08/graphql-book-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lakshay-08/graphql-book-library/issues"
+  },
+  "homepage": "https://github.com/lakshay-08/graphql-book-library#readme",
+  "dependencies": {
+    "@types/graphql": "^14.2.3",
+    "@types/node": "^22.10.5",
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0",
+    "pg": "^8.13.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-graphql": "^0.8.2",
+    "@types/pg": "^8.11.10"
+  }
+}
